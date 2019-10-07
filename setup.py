@@ -5,11 +5,11 @@ try:
 except ImportError:
     from distutils.core import setup
 
-requirements = ['qds_sdk == 1.3.4']
+requirements = ['qds_sdk == 1.12.0']
 
 setup(
     name='iq-get',
-    version='1.0.0',
+    version='1.0.1',
     author='MediaMath',
     author_email='rsawyer@mediamath.com',
     description=('Python script to download Hive command results from Qubole Data Service (QDS)'),
